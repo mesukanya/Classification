@@ -8,9 +8,12 @@ import pickle
 from sklearn.svm import SVR
 
 
-data = pd.read_csv('Social_Network_Ads.csv')
+data = pd.read_csv('/home/admin1/Desktop/SlinearRegresstion/Classification/DecisionTree/Social_Network_Ads.csv')
 X= data.iloc[:,2:3].values
 y=data.iloc[:,3].values
+print("X",X)
+print('y',y)
+
 print(len(data))
 
 
